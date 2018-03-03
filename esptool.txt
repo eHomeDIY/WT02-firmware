@@ -1,0 +1,8 @@
+info command:
+esptool.py --chip esp8266 --port /dev/ttyUSB0 flash_id
+
+erase command:
+esptool.py --chip esp8266 --port /dev/ttyUSB0 erase_flash
+
+write command:
+esptool.py --chip esp8266 --port /dev/ttyUSB0 write_flash nodemcu-master-16-modules-2018-03-03-12-09-06-float.bin

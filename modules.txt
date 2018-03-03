@@ -1,0 +1,1 @@
+bit,bme280,crypto,enduser_setup,file,gpio,http,i2c,net,node,rtctime,sjson,sntp,tmr,uart,wifi
