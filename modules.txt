@@ -1,1 +1,26 @@
-bit,bme280,crypto,enduser_setup,file,gpio,http,i2c,net,node,rtctime,sjson,sntp,tmr,uart,wifi
+Common - required:
+enduser_setup,file,rtctime,sntp,tmr,wifi
+
+Debug:
+node,uart
+
+Si7021 - additional:
+bit,i2c
+
+DS18B20 - additional:
+crypto,gpio,ow
+
+BME280 - additional:
+bme280,i2c
+
+DHT11 - additional:
+dht
+
+Graphite - additional:
+net
+
+Elastic - additional:
+http,sjson
+
+Thingspeak - additional:
+http
