@@ -1,9 +1,6 @@
 Common - required:
 enduser_setup,file,rtctime,sntp,tmr,wifi
 
-Debug:
-node,uart
-
 Si7021 - additional:
 bit,i2c
 
@@ -24,3 +21,9 @@ http,sjson
 
 Thingspeak - additional:
 http
+
+Debug - optional:
+node
+
+Default selected:
+file,gpio,net,node,tmr,uart,wifi
